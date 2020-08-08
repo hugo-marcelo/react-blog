@@ -1,0 +1,26 @@
+@import "../../../assets/scss/_variables.scss";
+
+.react-blog {
+  background-color: $light-grey;
+  min-height: 100vh;
+  header {
+    box-shadow: 0px 0px 10px 0px rgba(49, 49, 49, 0.5);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    z-index: 10;
+    background-color: $default;
+    color: $light-grey;
+
+    .nav-link {
+      color: $light-grey;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      outline: none;
+      cursor: pointer;
+      &:hover {
+        color: $primary;
+        border-color: $primary;
+      }
+    }
+  }
+}

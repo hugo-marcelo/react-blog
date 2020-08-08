@@ -1,0 +1,17 @@
+.list-publications {
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.search {
+  align-items: flex-start;
+  .d-flex {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .list-publications {
+    justify-content: center;
+  }
+}

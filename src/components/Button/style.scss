@@ -1,0 +1,42 @@
+@import "../../assets/scss/_variables.scss";
+
+.btn {
+  border-radius: 10px;
+  box-shadow: none;
+  outline: none !important;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+
+  &:focus {
+    box-shadow: none !important;
+  }
+  &.btn-link {
+    border: none;
+    background-color: transparent;
+    &:hover {
+      color: $secondary;
+    }
+  }
+  &.btn-secondary {
+    border: none;
+    background-color: $secondary;
+    color: $default;
+    &:hover {
+      color: $white;
+      background-color: $primary;
+    }
+  }
+  &.btn-default {
+    border: none;
+    background-color: $grey;
+    color: $default;
+    &:hover {
+      background-color: $grey_dark;
+    }
+  }
+  &:hover,
+  &:focus,
+  &:focus {
+    outline: none !important;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../assets/scss/_variables.scss";
+
+.publication-view {
+  color: $default;
+  h1 {
+    padding-bottom: $default-size;
+    margin: $default-size 0;
+    border-bottom: 3px solid $primary;
+  }
+  span {
+    font-weight: 600;
+  }
+  .time-light {
+    font-style: italic;
+    font-weight: 300;
+  }
+}
